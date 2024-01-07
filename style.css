@@ -1,0 +1,37 @@
+h3{
+    background-color: aqua;
+    color: red;
+    border: 10px solid yellow;
+    border-radius: 10px;
+    margin: 10px;
+    padding: 5px;
+}
+p{
+    color: blueviolet;
+    font-size: 20px  ;
+    margin: 10px;
+    text-align: center;
+}
+form{
+    text-align: center;
+}
+#name{
+    color: blue;
+    margin: 5px 5px 10px;
+}
+#email{
+    color: blue;
+    margin-bottom: 10px;
+    margin-top: 5px;
+}
+#fname{
+    color: red;
+    text-align: left;
+}
+#femail{
+    color: red;
+    text-align: left;
+}
+#submit{
+    color: blue;
+}
