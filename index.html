@@ -42,10 +42,54 @@
         </video>
         <figcaption style="font-size: larger; color: blueviolet; text-decoration: underline;">Horse running</figcaption>
     </section>
-    <iframe width="560" height="315" src="https://www.youtube.com/embed/dIOX08jKjcs?si=rGiZPBRZFlp-PPTt" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+    <iframe style="margin-bottom: 10px;" width="560" height="315" src="https://www.youtube.com/embed/dIOX08jKjcs?si=rGiZPBRZFlp-PPTt" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+    
+    <form>
+        <label for="name">Your Name:
+            <input id="name" type="text" placeholder="Your Name">
+        </label>
+        <label for="email">Your Email:
+            <input id="email" type="email" placeholder="example@email.com">
+        </label>
+        <label for="phone">Your Phone:
+            <input id="phone" type="number" placeholder="01100000000">
+        </label>
+        <fieldset>
+            <legend>Pick One Pet for Purchase</legend>
+            <label for="rat">
+                <input type="radio" name="pet" id="rat">Rat
+            </label>
+            <label for="cat">
+                <input type="radio" name="pet" id="cat">Cat
+            </label>
+            <label for="dog">
+                <input type="radio" name="pet" id="dog">Dog
+            </label>
+        </fieldset>
+        <fieldset>
+            <legend>Get Additional Items With your Purchase</legend>
+            <label for="carrier">
+                <input type="checkbox" name="add" id="carrier">1pcs Pet Carrier Box
+            </label>
+            <label for="food">
+                <input type="checkbox" name="add" id="food">1 pack Pet Food
+            </label>
+            <label for="toy">
+                <input type="checkbox" name="add" id="toy">1pcs Pet Toy
+            </label>
+        </fieldset>
+        <fieldset>
+            <legend>Notes:</legend>
+            <textarea name="" id="" cols="50" rows="5"></textarea>
+        </fieldset>
+        <input type="reset" value="Reset">
+        <input type="submit" value="Submit">
+    </form>
+
     <footer>
         <p style="color: red;"><small>&copf; 2024. All rights reserved.</small></p>
     </footer>
+
 
 </body>
 </html>
