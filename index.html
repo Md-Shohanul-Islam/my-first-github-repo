@@ -7,6 +7,18 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="home.html">Home</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="portfolio.html">Portfolio</a></li>
+                <li><a href="blog.html">Blog</a></li>
+                <li><a href="contact.html">Contact</a></li>
+                <li><a href="more.html">More</a></li>
+            </ul>
+        </nav>
+    </header>
     <h3>Github Push</h3>
     <div>
         <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Eaque perspiciatis facilis, ut dolorem impedit voluptas natus hic exercitationem eius, culpa aliquam molestiae a temporibus earum, provident labore odio ducimus modi.</p>
@@ -20,13 +32,20 @@
         <input type="email" id="email" placeholder="example@email.com"><br>
         <input type="submit" value="Submit" id="submit">
     </form>
-    <label for="audio">Horse running sound Effects</label>
-    <audio controls src="assets/media/Horse Sound Effects.mp3"></audio>
-    <label for="video">Horse running</label>
-    <video controls width="400">
-        <source src="assets/media/horses.mp4" type="video/mp4">
-    </video>
+    <section>
+        <audio controls src="assets/media/Horse Sound Effects.mp3"></audio>
+        <figcaption style="font-size: larger; color: blueviolet; text-decoration: underline;">Horse running sound effects</figcaption>
+    </section>
+    <section>
+        <video controls width="560">
+            <source src="assets/media/horses.mp4" type="video/mp4">
+        </video>
+        <figcaption style="font-size: larger; color: blueviolet; text-decoration: underline;">Horse running</figcaption>
+    </section>
     <iframe width="560" height="315" src="https://www.youtube.com/embed/dIOX08jKjcs?si=rGiZPBRZFlp-PPTt" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+    <footer>
+        <p style="color: red;"><small>&copf; 2024. All rights reserved.</small></p>
+    </footer>
 
 </body>
 </html>
